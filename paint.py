@@ -38,6 +38,17 @@ def square(start, end):
 
 def circle(start, end):
     """Draw circle from start to end."""
+<<<<<<< HEAD
+=======
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+    radius = ((end.x - start.x)**2 + (end.y - start.y)**2)**0.5
+    import turtle
+    turtle.circle(radius)
+    end_fill()
+>>>>>>> 5e51b26 (Agregado el color naranja y funcion de circulo)
     pass  # TODO
 
 
@@ -79,6 +90,12 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
+<<<<<<< HEAD
+=======
+
+onkey(lambda: color('orange'), 'O')
+
+>>>>>>> 5e51b26 (Agregado el color naranja y funcion de circulo)
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', circle), 'c')
