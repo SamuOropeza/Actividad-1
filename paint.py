@@ -49,17 +49,32 @@ def circle(start, end):
     turtle.circle(radius)
     end_fill()
 >>>>>>> 5e51b26 (Agregado el color naranja y funcion de circulo)
-    pass  # TODO
 
 
 def rectangle(start, end):
     """Draw rectangle from start to end."""
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+    for count in range(2):
+        forward(end.x - start.x)
+        left(90)
+        forward(end.y - start.y)
+        left(90)
+    end_fill()
 
 
 def triangle(start, end):
     """Draw triangle from start to end."""
-    pass  # TODO
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+    for count in range(3):
+        forward(end.x - start.x)
+        left(120)
+    end_fill()
 
 
 def tap(x, y):
