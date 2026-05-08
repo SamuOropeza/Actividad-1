@@ -11,5 +11,3 @@ Este repositorio contiene la evolución del software "Paint", enfocado en la imp
 ### Push 2: Lógica Poligonal (Rectángulo y Triángulo)
 * **Geometría de Rectángulo:** Rediseño del ciclo de renderizado en `rectangle(start, end)` para permitir la distinción entre base y altura mediante vectores de desplazamiento independientes.
 * **Geometría de Triángulo:** Implementación de un ciclo de iteración triple con una rotación de 120° para asegurar el cierre de un triángulo equilátero dinámico.
->>>>>>> 3767846 (Primer commit con el codigo original)
->>>>>>> 5e51b26 (Agregado el color naranja y funcion de circulo)
